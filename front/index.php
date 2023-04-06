@@ -1,5 +1,6 @@
 <?php
 // models
+
 include "../models/pdo.php";
 include "../models/sanpham.php";
 
@@ -26,4 +27,3 @@ if (isset($_GET['act'])) {
 
 include "views/elements/footer.php";
 // end views
-?>
